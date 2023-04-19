@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Anuphan:wght@200&display=swap');
+.
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Anuphan",sans-serif;
+}
+body{
+    background-color: chocolate;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.container
+{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    background: white;
+    grid-template-columns: 1fr 2fr;
+    margin: 50px;
+    box-shadow: 0 55px 75px rgba(0,0,0,0.1);
+    border-left: 50px solid rgb(230, 8, 8);
+    border-right: 50px solid rgb(214, 9, 9);
+}
+
+.container .leftside
+{
+    position: relative;
+    background:white;
+    padding: 10px;
+}
+.container .top
+{
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    padding: 40px;
+    padding-bottom: 0;
+}
+.container .top .imgBx
+{
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center; 
+}
+.container .top .imgBx
+{
+    position: relative;
+    width: 70%;
+    min-width: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    aspect-ratio: 1;
+}
+.container .top .imgBx img
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.container .top .profiletext
+{
+    position: relative;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+}
+.container .top .profiletext h3
+{
+    font-size: 2em;
+    letter-spacing: 0.1em;
+    line-height: 1.2em;
+    font-weight: 600;
+    color: #333;
+}
+.container .contentbox
+{
+    position: relative;
+    min-height: 500px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    padding: 0 40px 40px;
+}
+.container .contentbox h3
+{
+    border-left: 4px solid goldenrod;
+    padding-left: 10px;
+    line-height: 1em;
+    font-weight: 600;
+    color: orangered;
+    letter-spacing: 0.1em;
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+..container .contentbox ul
+{
+    position: relative;
+    margin: 10px 0;
+}
+.container .contentbox ul li
+{
+    list-style: none;
+    margin: 25px 0;
+    line-height: 1em;
+    color: chocolate;
+    cursor: pointer;
+    display: flex;
+}
+.container .contentbox ul li .icon
+{
+    font-size: 1.2em;
+    margin-right: 10px;
+    color: rgb(243, 227, 10);
+}
+.container .contentbox ul.educacion li
+{
+flex-direction: column;
+margin: 20px 0;
+}
+h5
+{
+    color: orangered;
+}
+h4
+{
+    color: green;
+    font-weight: 500;
+    margin: 5px 0;
+}
+h6
+{
+    color: rgb(31, 231, 81);
+}
+.container .intereses .percent
+{
+    position: relative;
+    width: 100%;
+    height: 6px;
+    background: rgba(238, 109, 4, 0.774);
+    display: block;
+    margin-top: 15px;
+    display: block;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+.contactinf.intereses .percent div
+{
+    
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: blue;
+}
+p
+{
+    font-style: 300;
+}
+.rightside
+{
+    color:brown;
+}
+.about.habilidades .box
+{
+    position: relative;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    align-items: center;
+
+}
+.about.habilidades .box h4
+{
+color: goldenrod;
+font-weight: 500;
+margin-bottom: 5px;
+}
+.about.habilidades .box .percent
+{
+    position: relative;
+    width: 100%;
+    height: 10px;
+    background:goldenrod;
+}
+.about.habilidades .box .percent div
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: green;
+}
